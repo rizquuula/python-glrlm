@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Feb 04 12:56:00 2022
+@author: eiproject
+"""
+
 class DegreeObject:
     def __init__(self, mat_0, mat_45, mat_90, mat_135):
         self.__title__ = "Degree Object for GLRLM"

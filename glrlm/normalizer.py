@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Feb 04 12:56:00 2022
+@author: eiproject
+"""
+
 class Normalizer:
     """Perform image pixel normalization"""
     def __init__(self):

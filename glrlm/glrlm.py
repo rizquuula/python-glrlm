@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Feb 04 12:56:00 2022
+@author: eiproject
+"""
+
 from .operator import Operator
 from .degree import Degree
 from .normalizer import Normalizer
