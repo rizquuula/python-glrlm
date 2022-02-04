@@ -6,11 +6,11 @@ README = (BASE_DIR / "README.md").read_text()
 
 setup(
     name="glrlm",
-    version="0.0.1",
+    version="0.1.0",
     author="M Razif Rizqullah",
     author_email="razifrizqullah@gmail.com",
     url='https://github.com/eiproject/python-glrlm',
-    description="Gral Level Run Length Matrix",
+    description="Gray Level Run Length Matrix",
     long_description=README,
     long_description_content_type="text/markdown",
     license='MIT',
