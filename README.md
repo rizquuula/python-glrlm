@@ -4,8 +4,8 @@ This is library of Gray Level Run Length Matrix, feature extraction method of im
 
 ![GitHub](https://img.shields.io/github/license/eiproject/python-glrlm)
 ![GitHub top language](https://img.shields.io/github/languages/top/eiproject/python-glrlm)
-![GitHub all releases](https://img.shields.io/github/downloads/eiproject/python-glrlm/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/eiproject/python-glrlm)
+![GitHub all releases](https://img.shields.io/github/downloads/eiproject/python-glrlm/total?label=downloads)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/eiproject/python-glrlm?include_prereleases)
 
 ## Installation
 
