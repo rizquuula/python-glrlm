@@ -1,3 +1,3 @@
-# lib-GLRLM-Python3
+# python-glrlm
 
-This is library of Gray Level Run Length Matrix, method of image processing
+This is library of Gray Level Run Length Matrix, feature extraction method of image processing
