@@ -6,7 +6,7 @@ README = (BASE_DIR / "README.md").read_text()
 
 setup(
     name="glrlm",
-    version="0.0.2",
+    version="0.0.1",
     author="M Razif Rizqullah",
     author_email="razifrizqullah@gmail.com",
     url='https://github.com/eiproject/python-glrlm',
