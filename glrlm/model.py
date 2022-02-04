@@ -4,7 +4,7 @@ Created on Fri Feb 04 12:56:00 2022
 @author: eiproject
 """
 
-class DegreeObject:
+class DegreeGLRLM:
     def __init__(self, mat_0, mat_45, mat_90, mat_135):
         self.__title__ = "Degree Object for GLRLM"
         self.Mat_0 = mat_0 
@@ -14,7 +14,7 @@ class DegreeObject:
         self.Degrees = [mat_0, mat_45, mat_90, mat_135]
         
         
-class FeatureObject:
+class FeatureGLRLM:
     def __init__(self, sre, lre, glu, rlu, rpc):
         self.__title__ = "Feature Object from GLRLM"
         self.SRE = sre

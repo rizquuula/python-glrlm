@@ -4,7 +4,7 @@ Created on Fri Feb 04 12:56:00 2022
 @author: eiproject
 """
 
-from .model import DegreeObject
+from .model import DegreeGLRLM
 import numpy
 
 class Degree:
@@ -216,4 +216,4 @@ class Degree:
         mat90 = self.__degree90GLRLM()
         mat135 = self.__degree135GLRLM()
         
-        return DegreeObject(mat0, mat45, mat90, mat135)
+        return DegreeGLRLM(mat0, mat45, mat90, mat135)

@@ -15,6 +15,7 @@ class GLRLM:
     Gray Level Run Length Matrix
     
     Feature extraction technique in image processing
+    @author: M Razif Rizqullah | https://github.com/eiproject
     """
     def __init__(self):
         self.__title__ = "GLRLM"
@@ -30,6 +31,20 @@ class GLRLM:
         
         
     def get_features(self, image, level=8):
+        """[summary]
+
+        Args:
+            image (array): Open CV image array
+            level (int, optional): Pixel normalization level. Defaults to 8.
+
+        Returns:
+            FeatureGLRLM: Feature extraction result from GLRLM
+            - SRE = Short Run Emphasis
+            - LRE = Long Run Emphasis
+            - GLU = Grey Level Uniformity
+            - RLU = Run Length Uniformity
+            - RPC = Run Percentage
+        """
         grayscale_image = self.__check_and_convert_to_gray(image)
         normalized_image = self.__normalizer.normalizationImage(grayscale_image, 0, level)
         degree_obj = self.__degree.create_matrix(normalized_image, level)

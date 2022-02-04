@@ -4,7 +4,7 @@ Created on Fri Feb 04 12:56:00 2022
 @author: eiproject
 """
 
-from .model import DegreeObject, FeatureObject 
+from .model import DegreeGLRLM, FeatureGLRLM 
 
 class Operator:
     """
@@ -12,7 +12,7 @@ class Operator:
     """
     def __init__(self):
         self.title = "GLRLM Operator"
-        self.__degree_obj:DegreeObject = None
+        self.__degree_obj:DegreeGLRLM = None
 
     def __SRE(self):
         input_matrix = self.__degree_obj.Degrees
@@ -129,9 +129,9 @@ class Operator:
         # print('Perhitungan RPC')
         return round(sum(matRPC),3)
     
-    def create_feature(self, degree:DegreeObject):
+    def create_feature(self, degree:DegreeGLRLM):
         self.__degree_obj = degree
-        return FeatureObject(
+        return FeatureGLRLM(
             self.__SRE(), 
             self.__LRE(), 
             self.__GLU(), 
